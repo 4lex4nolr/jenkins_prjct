@@ -1,7 +1,6 @@
-import org.apache.poi
 
 def call() {
     script {
-        def wb = new XFFSWorkbook()
+        def wb = new org.apache.poi.xssf.usermodel.XFFSWorkbook()
     }
 }
