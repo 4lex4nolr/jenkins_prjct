@@ -1,7 +1,7 @@
-import org.apache.poi.hssf
+import org.apache.poi.hssf.usermodel.HSSFWorkbook
 
 def call() {
     script {
-        def wb = new org.apache.poi.hssf.usermodel.HSSFWorkbook()
+        def wb = new HSSFWorkbook()
     }
 }
