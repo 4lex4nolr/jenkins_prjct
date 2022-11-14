@@ -1,5 +1,3 @@
-@Library('org.apache.poi') _
-
 pipeline {
     agent none
     stages {
